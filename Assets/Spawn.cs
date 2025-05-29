@@ -17,6 +17,6 @@ public class Spawn : MonoBehaviour
     public void SpawnObstacles()
     {
         GameObject newObstacle = Instantiate(obstacles, transform.position, transform.rotation);
-        newObstacle.GetComponent<ObstaclesMovement>().obstaclesMovement = this; 
+        newObstacle.GetComponent<ObstaclesMovement>().obstacles = this; 
     }
 }

@@ -3,18 +3,18 @@ using UnityEngine;
 public class ObstaclesMovement : MonoBehaviour
 {
     // Variables
-    public Spawn obstaclesMovement;
+    public Spawn obstacles;
 
     void Update()
     {
-        transform.Translate(Vector2.left * obstaclesMovement.CurrentSpeed * Time.deltaTime);
+        transform.Translate(Vector2.left * obstacles.CurrentSpeed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("nextLine"))
         {
-            obstaclesMovement.SpawnObstacles();
+            obstacles.SpawnObstacles();
         }
     }
 }
