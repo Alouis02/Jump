@@ -14,7 +14,11 @@ public class ObstaclesMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("nextLine"))
         {
-            obstacles.SpawnObstacles();
+            obstacles.RandomObstacle();
+        }
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            Destroy(this.gameObject);
         }
     }
 }

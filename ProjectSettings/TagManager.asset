@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - nextLine
+  - Ground
+  - Spike
   layers:
   - Default
   - TransparentFX
