@@ -53,11 +53,11 @@ public class PlayerScript : MonoBehaviour
         {
             isJumping = false;
             Time.timeScale = 0;
-        }
 
-        if (replay != null)
-        {
-            replay.GameOver();
+            if (replay != null)
+            {
+                replay.GameOver();
+            }   
         }
     }
 }

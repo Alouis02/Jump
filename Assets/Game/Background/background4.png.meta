@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 7008d30a1b3dec547884a4baa091d141
+guid: 0714c112accc1f947a9fa2862dd665b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8382717070696663976
-    second: spikes_0
+      213: 7580625972200199647
+    second: background4_0
+  - first:
+      213: -8118845169419756041
+    second: background4_1
+  - first:
+      213: -7016884644965140384
+    second: background4_2
+  - first:
+      213: -4950210542296212897
+    second: background4_3
+  - first:
+      213: -252151775762381809
+    second: background4_4
+  - first:
+      213: -5499193248971104188
+    second: background4_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +55,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -113,12 +128,12 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -126,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spikes_0
+      name: background4_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 138
-        height: 158
+        x: 0
+        y: 159
+        width: 647
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +156,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ab4a7323c4655470800000000000000
-      internalID: 8382717070696663976
+      spriteID: fd5d718682bc33960800000000000000
+      internalID: 7580625972200199647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background4_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 197
+        width: 238
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdd65a7551145f80800000000000000
+      internalID: -8118845169419756041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background4_2
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 251
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068b5faa7940f9e90800000000000000
+      internalID: -7016884644965140384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background4_3
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 228
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a5a073db15d4bb0800000000000000
+      internalID: -4950210542296212897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background4_4
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 163
+        width: 139
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f040330cb4d208cf0800000000000000
+      internalID: -252151775762381809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background4_5
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 191
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440e9d340e0fea3b0800000000000000
+      internalID: -5499193248971104188
       vertices: []
       indices: 
       edges: []
@@ -161,7 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spikes_0: 8382717070696663976
+      background4_0: 7580625972200199647
+      background4_1: -8118845169419756041
+      background4_2: -7016884644965140384
+      background4_3: -4950210542296212897
+      background4_4: -252151775762381809
+      background4_5: -5499193248971104188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

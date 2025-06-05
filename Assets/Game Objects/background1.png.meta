@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 7008d30a1b3dec547884a4baa091d141
+guid: 471e459491e828d49ad39dfaeffc96a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8382717070696663976
-    second: spikes_0
+      213: 5756380681857427472
+    second: background1_0
+  - first:
+      213: 6151996013035556394
+    second: background1_1
+  - first:
+      213: 3343638076008302627
+    second: background1_2
+  - first:
+      213: 1718271839979687114
+    second: background1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +49,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -113,12 +122,12 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spikes_0
+      name: background1_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 138
-        height: 158
+        x: 22
+        y: 356
+        width: 254
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ab4a7323c4655470800000000000000
-      internalID: 8382717070696663976
+      spriteID: 01868064bb5c2ef40800000000000000
+      internalID: 5756380681857427472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background1_1
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 383
+        width: 119
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e8a9877c7406550800000000000000
+      internalID: 6151996013035556394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background1_2
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 352
+        width: 257
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32802f16d1df66e20800000000000000
+      internalID: 3343638076008302627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background1_3
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 236
+        width: 114
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acccb89722788d710800000000000000
+      internalID: 1718271839979687114
       vertices: []
       indices: 
       edges: []
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spikes_0: 8382717070696663976
+      background1_0: 5756380681857427472
+      background1_1: 6151996013035556394
+      background1_2: 3343638076008302627
+      background1_3: 1718271839979687114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
