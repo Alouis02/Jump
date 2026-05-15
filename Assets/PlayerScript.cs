@@ -3,28 +3,21 @@ using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
 {
-    // Variables
     public Rigidbody2D myPlayer;
     public float jumpStrength;
-    private bool isGrounded;
-    float score;
-    bool isJumping = true;
     public Text ScorePoint;
-    public Replay replay;
-    
+    public GameOver replay;
+
+    private bool isGrounded;
+    private float score;
+    private bool isJumping = true;
 
     void Start()
     {
-        GameObject replayObject = GameObject.Find("GameManager"); // Replace with actual Replay GameObject name
-        if (replayObject != null)
+        if (replay == null)
         {
-            replay = replayObject.GetComponent<Replay>();
+            replay = FindObjectOfType<GameOver>();
         }
-    }
-
-    private void Score()
-    {
-        score = 0;
     }
 
     void Update()
@@ -38,7 +31,7 @@ public class PlayerScript : MonoBehaviour
         if (isJumping)
         {
             score += Time.deltaTime * 4;
-            ScorePoint.text = "SCORE: " + score.ToString("F");
+            ScorePoint.text = "SCORE: " + ((int)score).ToString();
         }
     }
 
@@ -48,16 +41,14 @@ public class PlayerScript : MonoBehaviour
         {
             isGrounded = true;
         }
-
-        if (collision.gameObject.CompareTag("Spike"))
+        else
         {
             isJumping = false;
-            Time.timeScale = 0;
-
+            Time.timeScale = 0f;
             if (replay != null)
             {
-                replay.GameOver();
-            }   
+                replay.gameOver();
+            }
         }
     }
 }

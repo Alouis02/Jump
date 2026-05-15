@@ -5,13 +5,12 @@ using UnityEngine.UI;
 
 public class Trees : MonoBehaviour
 {
-    [SerializeField] private RawImage _treeimg; // Reference to the RawImage component
-    [SerializeField] private float _x, _y; // Speed of the scrolling effect
+    public float loopSpeed;
+    public Renderer BGTree;
 
     void Update()
     {
-        _treeimg.uvRect = new Rect(_treeimg.uvRect.position + new Vector2(_x, _y) * Time.deltaTime, _treeimg.uvRect.size);
-
+        BGTree.material.mainTextureOffset += new Vector2(loopSpeed * Time.deltaTime, 0f);
     }
     
 }
